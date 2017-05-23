@@ -8,17 +8,17 @@
 * Add body parser middleware to express
 
 ### Create express routes to get all things
-* Add a .get() route for /contacts, /vehicles, /comments, /products
+* Add .get() routes for /contacts, /vehicles, /comments, /products
 * response.json() the appropriate array
 
 ### Create express routes to get one thing
-* Add a .get() route for /contacts, /vehicles, /comments, /products
+* Add .get() routes for /contacts/:id, /vehicles/:id, /comments/:id, /products/:id
 * add a path variable for id
-* use the id to .find() the item from the appropriate array
+* use the params.id to .find() the item from the appropriate array
 * response.json() the item found
 
 ### Create express routes to create one thing
-* Add a .post() route for /contacts, /vehicles, /comments, /products
+* Add .post() routes for /contacts, /vehicles, /comments, /products
 * Add the information from the body to the appropriate array
 
 At this point, the web page should operate in the same manner as the redux fetch practice
