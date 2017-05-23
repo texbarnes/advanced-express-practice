@@ -8,27 +8,33 @@
 * Add body parser middleware to express
 
 ### Create express routes to get all things
-* Add a .get() route for /contact, /vehicles, /comments, /products
+* Add a .get() route for /contacts, /vehicles, /comments, /products
 * response.json() the appropriate array
 
 ### Create express routes to get one thing
-* Add a .get() route for /contact, /vehicles, /comments, /products
+* Add a .get() route for /contacts, /vehicles, /comments, /products
 * add a path variable for id
 * use the id to .find() the item from the appropriate array
 * response.json() the item found
 
 ### Create express routes to create one thing
-* Add a .post() route for /contact, /vehicles, /comments, /products
+* Add a .post() route for /contacts, /vehicles, /comments, /products
 * Add the information from the body to the appropriate array
 
 At this point, the web page should operate in the same manner as the redux fetch practice
 
 
 # Part 2 - Routes
+* Organize the routes for /contacts, /vehicles, /comments, /products
 
+# Part 3 - Controllers
+* Organize the code in the routes into controllers
 
+# Part 4 - Database
+* Create the mongoose models for Contact, Vehicle, Comment Product
+* Change the code in the controllers to use the Models
 
-# Part 3 - Client
+# Part 5 - Client
 
 ## Redux
 
@@ -70,7 +76,7 @@ At this point, the web page should operate in the same manner as the redux fetch
 * Create class components to show the details of each Type in our system
 * Vehicle.js, Product.js, Contact.js, Comment.js
 * Use the instructions from Containers to decide what props to use
-* You decide what to show in the detail
+* You decide what to show in the detail (HTML wise)
 * In componentDidMount
     * Extract the path parameter id
     * call the appropriate get action to get one thing
