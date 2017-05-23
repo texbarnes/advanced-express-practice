@@ -98,7 +98,7 @@ At this point, the web page should operate in the same manner as the redux fetch
     * For Vehicle.js map a prop called getVehicle to the action getVehicle
     * What should you do for Product.js, Contact.js and Comment.js
 
-### Router
+### React Router
 * Use react-router-dom 
 * Import BrowserRouter, Switch and Route into App.js
 * Create routes for each detail component
