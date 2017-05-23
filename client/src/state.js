@@ -2,5 +2,9 @@ export default {
   contacts: [],
   comments: [],
   products: [],
-  vehicles: []
+  vehicles: [],
+  vehicle: {},
+  comment: {},
+  product: {},
+  contact: {}
 };

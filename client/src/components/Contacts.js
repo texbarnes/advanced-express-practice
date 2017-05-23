@@ -3,7 +3,7 @@ import CollapsableMapper from "./CollapsableMapper";
 
 function Contacts(props) {
   return (
-    <CollapsableMapper data={props.contacts} field="name" />
+    <CollapsableMapper data={props.contacts} path="contact" field="name" />
   );
 }
 export default Contacts;

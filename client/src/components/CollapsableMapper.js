@@ -13,10 +13,11 @@ class CollapsableMapper extends Component {
       userDivs = this.props.data.map((d,i) => {
         return (
           <div key={i}>
-            {d[this.props.field]} 
-            {d[this.props.field1]} 
-            {d[this.props.field2]} 
-            {d[this.props.field3]}
+            {d[this.props.field]} -
+            {d[this.props.field1]} -
+            {d[this.props.field2]} -
+            {d[this.props.field3]} -
+            <a to={"/" + this.props.path + "/" + d._id}> View </a>
           </div>
         );
       });
