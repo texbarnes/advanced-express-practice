@@ -25,10 +25,14 @@ At this point, the web page should operate in the same manner as the redux fetch
 
 
 # Part 2 - Routes
+* Create route files
+* Import the arrays into the route
 * Organize the routes for /contacts, /vehicles, /comments, /products using express Router
 
 # Part 3 - Controllers
-* Organize the code in the routes into controllers
+* Create controller files 
+* Import the arrays into the controller
+* Take the code from the routes and put it into the controller
 * create functions for list, show and create
 
 # Part 4 - Database
