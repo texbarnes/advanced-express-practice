@@ -23,7 +23,12 @@
 
 At this point, the web page should operate in the same manner as the redux fetch practice
 
-# Part 2 - Client
+
+# Part 2 - Routes
+
+
+
+# Part 3 - Client
 
 ## Redux
 
