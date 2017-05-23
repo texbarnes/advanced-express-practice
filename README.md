@@ -1,5 +1,5 @@
 # Express Practice
-# Part 1
+# Part 1 - Server
 
 ### src/index.js
 * This is the starting point of the server, put all code here
@@ -23,7 +23,7 @@
 
 At this point, the web page should operate in the same manner as the redux fetch practice
 
-## Part 2
+# Part 2 - Client
 
 ## Redux
 
