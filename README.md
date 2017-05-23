@@ -23,7 +23,7 @@
 
 At this point, the web page should operate in the same manner as the redux fetch practice
 
-Part 2
+## Part 2
 
 ## Redux
 
