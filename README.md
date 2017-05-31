@@ -39,6 +39,10 @@ At this point, the web page should operate in the same manner as the redux fetch
 
 # Part 4 - Database
 * Create the mongoose models for Contact, Vehicle, Comment Product
+* CommentModel - body
+* ContactModel - name, occupation, avatar
+* VehicleModel - year, make, model
+* ProductModel - name, description
 * Change the code in the controllers to use the Models
 
 # Part 5 - Client
@@ -71,7 +75,7 @@ At this point, the web page should operate in the same manner as the redux fetch
 * Create actions to handle the data 
     * getProductDone(product)
         * GET_PRODUCT_DONE
-    * getVehicleDone(product)
+    * getVehicleDone(vehicle)
         * GET_VEHICLE_DONE
     * getComment(comment)
         * GET_COMMENT_DONE
@@ -101,14 +105,14 @@ At this point, the web page should operate in the same manner as the redux fetch
 ### React Router
 * Use react-router-dom 
 * Import BrowserRouter, Switch and Route into App.js
-* Create routes for each detail component
+* Create routes for each detail container component
     * /vehicle/:id -> Vehicle
     * …etc
     * / -> show the Main component
 
 #### Link
-* Look at CollapsableMapper.js
-* Change the <a> tag to <Link>
+* Look at client/components/CollapsableMapper.js
+* Change the `<a>` tag to `<Link>`
 
 
 ### Points
