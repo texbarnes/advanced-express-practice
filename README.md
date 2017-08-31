@@ -1,7 +1,7 @@
 # Express Practice
 # Part 1 - Server
 
-### src/index.js
+### server/index.js
 * This is the starting point of the server, put all code here
 
 ### Body
