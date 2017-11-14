@@ -1,7 +1,7 @@
 import express from "express";
 import comments from "./comments";
 import products from "./products";
-import vehicle from "./vehicles";
+import vehicles from "./vehicles";
 import contacts from "./contacts";
 
 const app = express();
