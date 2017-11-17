@@ -1,4 +1,7 @@
 # Express Practice
+
+# Windows users - Make sure you remove single quotes from the package.json
+
 # Part 1 - Server
 
 ### server/index.js
