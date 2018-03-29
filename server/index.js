@@ -1,8 +1,8 @@
-import express from "express";
-import comments from "./comments";
-import products from "./products";
-import vehicles from "./vehicles";
-import contacts from "./contacts";
+let express = require("express");
+let comments = require("./comments");
+let products = require("./products");
+let vehicles = require("./vehicles");
+let contacts = require("./contacts");
 
 const app = express();
 
