@@ -29,7 +29,6 @@ At this point, the web page should operate in the same manner as the redux fetch
 
 # Part 2 - Routes
 * Create route files
-* Import the arrays into the route
 * Organize the routes for /contacts, /vehicles, /comments, /products using express Router
 * Import and use the Routers in index.js
 
