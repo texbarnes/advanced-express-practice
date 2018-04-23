@@ -13,6 +13,7 @@
 
 ### server/index.js
 * This is the starting point of the server, put all code here
+* Make your app listen to port 3001
 
 ### Body
 * Add body parser middleware to express
