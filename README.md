@@ -1,6 +1,13 @@
 # Express Practice
 
 # Windows users - Make sure you remove single quotes from the package.json
+# Setup
+* fork, clone, npm install, npm start
+* a web page has been created for you so don't worry about that
+* your job is to build the server 
+* the only code you need to change is in the `/server` folder
+
+
 
 # Part 1 - Server
 
