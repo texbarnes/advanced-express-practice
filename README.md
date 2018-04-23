@@ -24,7 +24,7 @@
 * Add .post() routes for /contacts, /vehicles, /comments, /products
 * Add the information from the body to the appropriate array
 
-At this point, the web page should operate in the same manner as the redux fetch practice
+Once completed, the web page should be able to list out the information, create new information and view one item of the information.
 
 
 # Part 2 - Routes
