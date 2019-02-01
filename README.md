@@ -2,16 +2,15 @@
 
 # Windows users - Make sure you remove single quotes from the package.json
 # Setup
-* fork, clone, npm install, npm start
-* a web page has been created for you so don't worry about that
-* your job is to build the server 
-* the only code you need to change is in the `/server` folder
-
-
+* fork, clone, npm install, node index.js
+* A web page has been created for you
+* Your job is to build the server 
+* Ignore the `client` folder
+* Look at http://localhost:3001
 
 # Part 1 - Server
 
-### server/index.js
+### index.js
 * This is the starting point of the server, put all code here
 * Make your app listen to port 3001
 
@@ -33,6 +32,7 @@
 * Add the information from the body to the appropriate array
 
 Once completed, the web page should be able to list out the information, create new information and view one item of the information.
+We don't need to worry about update or delete.
 
 
 # Part 2 - Routes
